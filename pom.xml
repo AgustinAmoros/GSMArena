@@ -8,8 +8,8 @@
 	<artifactId>GSM-Arena</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>CarinaDemo</name>
-	<url>https://qaprosoft.com</url>
+	<name>GSMArena-demo</name>
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -83,8 +83,7 @@
 		</dependency>
 
 		<dependency>
-			<!--we need it to reuse benefits of zebrunner testng agent for webdriver
-				sesssion(s) declaration -->
+
 			<groupId>net.bytebuddy</groupId>
 			<artifactId>byte-buddy</artifactId>
 			<version>1.10.18</version>
