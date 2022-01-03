@@ -23,9 +23,19 @@ public class GSMArenaTests implements IAbstractTest, ISignUpService {
        driver.get("http://www.gsmarena.com");
     }
 
-    @DataProvider(name = "dp1")
+    @DataProvider(name = "dpValidCredentials")
     public Object[][] dp1(){
-        return new Object[][] {{"aaabbbccc1234","manzanaroja1234"}, {"ganchoperrojueves123","carlosgardel666"}};
+        return new Object[][] {{"aaabbbccc1234","manzanaroja1234"}, {"ganchoperrojueves1","carlosgardel666"}};
+    }
+
+    @DataProvider(name="dpInvalidPasswords")
+    public Object[][] dp2(){
+        return new Object[][] {{"aaabbbccc1234","man"}, {"ganchoperrojueves1","carlosgardel666777888999"},{"papafritasalame",""}};
+    }
+
+    @DataProvider(name="dpInvalidNicknames") //Nicknames longer than 20 characters won't be fully typed, only its first 20 characters.
+    public Object[][] dp3(){
+        return new Object[][] {{"g","carlosgardel666"},{"","bicicletagod123"}};
     }
 
 //    @DataProvider(name = "dp2")
@@ -42,9 +52,54 @@ public class GSMArenaTests implements IAbstractTest, ISignUpService {
     }
 
     @Test(dataProvider = "dp1")
-    public void verifyInvalidEmailsNotAllowed(String nickname,String password){
-       SignUpPage signUpPage = signUpWithInvalidEmail(driver,nickname,password,"ABCEDFG.com");
+    public void verifyEmptyEmailsNotAllowed(String nickname,String password){
+       SignUpPage signUpPage = signUpWithInvalidEmail(driver,nickname,password,"");
        assertEquals(signUpPage.isSubmitButtonClickable(), false, "FATAL!, Not same");
 
     }
+
+    @Test(dataProvider = "dp1")
+    public void verifyInvalidEmailsNotAllowed(String nickname,String password){
+        SignUpPage signUpPage = signUpWithInvalidEmail(driver,nickname,password,"ABCDEFG.com");
+        assertEquals(signUpPage.isSubmitButtonClickable(), false, "FATAL!, Not same");
+
+    }
+
+    @Test(dataProvider = "dpInvalidNicknames")
+    public void verifyInvalidNicknameIsNotAllowed(String nickname, String password){
+        SignUpPage signUpPage = signUpWithInvalidCredentials(driver,nickname,password);
+        if(signUpPage.isSubmitButtonClickable()==true) {
+            signUpPage.clickSubmitButton();
+            assertEquals(signUpPage.getOperationFailedMessage(), "The operation failed.", "FATAL!, Not same");
+        }
+        else
+        {
+            assertEquals(signUpPage.isSubmitButtonClickable(), false, "FATAL!, Not same");
+
+        }    }
+
+    @Test(dataProvider="dpInvalidPasswords")
+    public void verifyInvalidPasswordIsNotAllowed(String nickname, String password){
+        SignUpPage signUpPage = signUpWithInvalidCredentials(driver,nickname,password);
+        if(signUpPage.isSubmitButtonClickable()==true) {
+            signUpPage.clickSubmitButton();
+            assertEquals(signUpPage.getOperationFailedMessage(), "The operation failed.", "FATAL!, Not same");
+        }
+        else
+        {
+            assertEquals(signUpPage.isSubmitButtonClickable(), false, "FATAL!, Not same");
+
+        }
+        }
+
+
+    @Test(dataProvider="dpValidCredentials")
+    public void verifyConditionsAreRequired(String nickname,String password){
+       SignUpPage signUpPage = signUpWithoutConditions(driver,nickname,password);
+       assertEquals(signUpPage.isSubmitButtonClickable(), false, "FATAL!, Not same");
+
+    }
+
+
+
 }

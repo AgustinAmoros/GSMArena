@@ -21,13 +21,13 @@ public class SignUpPage extends AbstractPage {
     @FindBy(xpath="//*[@id=\"body\"]/div/div[1]/div/div/div[2]/div/h1")
     private ExtendedWebElement signUpMessage;
 
-    @FindBy(xpath="//*[@id=\"uname\"]")
+    @FindBy(xpath="/html/body/div[1]/div[1]/div[2]/div/div[3]/form/fieldset[1]/input[1]")
     private ExtendedWebElement nicknameField;
 
-    @FindBy(xpath="//*[@id=\"email\"]")
+    @FindBy(xpath="/html/body/div[1]/div[1]/div[2]/div/div[3]/form/fieldset[1]/input[2]")
     private ExtendedWebElement emailField;
 
-    @FindBy(xpath="//*[@id=\"upass\"]")
+    @FindBy(xpath="/html/body/div[1]/div[1]/div[2]/div/div[3]/form/input")
     private ExtendedWebElement passwordField;
 
     @FindBy(xpath="//*[@id=\"frmOpin\"]/fieldset[2]/div[1]/label")
@@ -36,9 +36,11 @@ public class SignUpPage extends AbstractPage {
     @FindBy(xpath="//*[@id=\"frmOpin\"]/fieldset[2]/div[2]/label")
     private ExtendedWebElement iAmSixteenConditionButton;
 
-    @FindBy(xpath="//*[@id=\"nick-submit\"]")
+    @FindBy(xpath="/html/body/div[1]/div[1]/div[2]/div/div[3]/form/div/input")
     private ExtendedWebElement submitButton;
 
+    @FindBy(xpath="//*[@id=\"body\"]/div/div[2]/h3")
+    private ExtendedWebElement operationFailedMessage;
 
 
     public SignUpPage(WebDriver driver) {
@@ -50,24 +52,18 @@ public class SignUpPage extends AbstractPage {
         return signUpMessage.getText();
     }
     public void setNicknameField(String nickname){
-        Actions action = new Actions(driver);
-        action.sendKeys(Keys.PAGE_DOWN).build().perform();
 
      nicknameField.type(nickname);
-     nicknameField.sendKeys(Keys.TAB);
     }
 
     public void setEmailField(String email){
-//     WebDriverWait wait =new WebDriverWait(driver, 5);
-//     wait.until(ExpectedConditions.elementToBeClickable(By.xpath("\"//*[@id=\\\"email\\\"]\"")));
-        Actions action = new Actions(driver);
-        action.sendKeys(email).build().perform();
-        action.sendKeys(Keys.TAB).build().perform();
+
+
+        emailField.type(email);
     }
 
     public void setPasswordField(String password){
-        Actions action = new Actions(driver);
-        action.sendKeys(password).build().perform();
+    passwordField.type(password);
     }
 
     public void clickIAgreeConditionButton(){
@@ -77,6 +73,7 @@ public class SignUpPage extends AbstractPage {
     public void clickIAmSixteenConditionButton(){
         iAmSixteenConditionButton.click();
     }
+
 
     public boolean isSubmitButtonClickable()
     {
@@ -91,5 +88,12 @@ public class SignUpPage extends AbstractPage {
 
     }
 
+    public void clickSubmitButton(){
+       if(this.isSubmitButtonClickable()==true) { submitButton.click();}
 
+    }
+
+    public String getOperationFailedMessage(){
+        return operationFailedMessage.getText();
+    }
 }

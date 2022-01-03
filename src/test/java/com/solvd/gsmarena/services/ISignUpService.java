@@ -32,7 +32,33 @@ public interface ISignUpService {
         signUpPage.clickIAgreeConditionButton();
         signUpPage.clickIAmSixteenConditionButton();
         return signUpPage;
+    }
+
+
+    default SignUpPage signUpWithInvalidCredentials(WebDriver driver,String nickname,String password)
+    {
+        SignUpPage signUpPage = goToSignUp(driver);
+        signUpPage.setNicknameField(nickname);
+        signUpPage.setEmailField("ABCDEFG@gmail.com");
+        signUpPage.setPasswordField(password);
+        signUpPage.clickIAgreeConditionButton();
+        signUpPage.clickIAmSixteenConditionButton();
+        signUpPage.clickSubmitButton();
+        return signUpPage;
 
     }
+
+
+    default SignUpPage signUpWithoutConditions(WebDriver driver,String nickname,String password)
+    {
+        SignUpPage signUpPage = goToSignUp(driver);
+        signUpPage.setNicknameField(nickname);
+        signUpPage.setEmailField("ABCDEFG@gmail.com");
+        signUpPage.setPasswordField(password);
+        return signUpPage;
+
+    }
+
+
 
 }

@@ -1,3 +1,0 @@
-[2022-01-02 09:03:29] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2022-01-02 09:03:29] [IMessager.java] [1] [INFO] RESULT #1: TEST [GSMArena - verifyInvalidEmailsNotAllowed [L01]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641168177523/b45f94f3-ba03-49a9-9a63-c8bcced4aac9/test.log]
-[2022-01-02 09:03:29] [IMessager.java] [1] [INFO] RESULT #2: TEST [GSMArena - verifyInvalidEmailsNotAllowed [L02]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641168177523/2e82740c-0f21-471f-b240-097d71f2dbec/test.log]

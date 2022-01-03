@@ -1,0 +1,3 @@
+[2022-01-03 09:04:16] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-03 09:04:16] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidPasswordIsNotAllowed [L03]] STARTED at [09:04:16 2022-01-03]
+[2022-01-03 09:04:33] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidPasswordIsNotAllowed [L03]] PASSED at [09:04:33 2022-01-03]
