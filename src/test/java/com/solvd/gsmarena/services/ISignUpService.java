@@ -47,6 +47,20 @@ public interface ISignUpService {
         return signUpPage;
 
     }
+    default SignUpPage signUpWithValidCredentials(WebDriver driver)
+    {
+        SignUpPage signUpPage = goToSignUp(driver);
+        signUpPage.setNicknameField("dummyDummy");
+        signUpPage.setEmailField("dummyAcc@gmail.com");
+        signUpPage.setPasswordField("dummyDummy123");
+        signUpPage.clickIAgreeConditionButton();
+        signUpPage.clickIAmSixteenConditionButton();
+        signUpPage.clickSubmitButton();
+        return signUpPage;
+
+    }
+
+
 
 
     default SignUpPage signUpWithoutConditions(WebDriver driver,String nickname,String password)

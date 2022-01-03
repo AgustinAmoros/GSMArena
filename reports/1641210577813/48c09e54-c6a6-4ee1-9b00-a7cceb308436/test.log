@@ -1,3 +1,0 @@
-[2022-01-03 08:50:08] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
-[2022-01-03 08:50:08] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyConditionsAreRequired [L02]] STARTED at [08:50:08 2022-01-03]
-[2022-01-03 08:50:14] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyConditionsAreRequired [L02]] PASSED at [08:50:14 2022-01-03]

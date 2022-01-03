@@ -1,4 +1,0 @@
-[2022-01-03 09:04:34] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2022-01-03 09:04:34] [IMessager.java] [1] [INFO] RESULT #1: TEST [GSMArena - verifyInvalidPasswordIsNotAllowed [L01]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641211388561/9f56484b-7573-4034-b58e-49d0a6224c4e/test.log]
-[2022-01-03 09:04:34] [IMessager.java] [1] [INFO] RESULT #2: TEST [GSMArena - verifyInvalidPasswordIsNotAllowed [L02]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641211388561/2cc181dc-ac0c-4c09-b298-bdeaa3ceb581/test.log]
-[2022-01-03 09:04:34] [IMessager.java] [1] [INFO] RESULT #3: TEST [GSMArena - verifyInvalidPasswordIsNotAllowed [L03]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641211388561/ddef4861-8260-4204-85c9-70a2b838e35a/test.log]

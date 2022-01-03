@@ -1,3 +1,0 @@
-[2022-01-03 09:06:56] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
-[2022-01-03 09:06:56] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidNicknameIsNotAllowed [L03]] STARTED at [09:06:56 2022-01-03]
-[2022-01-03 09:07:01] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidNicknameIsNotAllowed [L03]] PASSED at [09:07:01 2022-01-03]

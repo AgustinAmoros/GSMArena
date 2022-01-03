@@ -42,6 +42,8 @@ public class SignUpPage extends AbstractPage {
     @FindBy(xpath="//*[@id=\"body\"]/div/div[2]/h3")
     private ExtendedWebElement operationFailedMessage;
 
+    @FindBy(xpath="/html/body/div[1]/div[1]/div[2]/div/div[2]/h3")
+    private ExtendedWebElement accountCreatedMessage;
 
     public SignUpPage(WebDriver driver) {
         super(driver);
@@ -95,5 +97,9 @@ public class SignUpPage extends AbstractPage {
 
     public String getOperationFailedMessage(){
         return operationFailedMessage.getText();
+    }
+
+    public String getAccountCreatedMessage(){
+        return accountCreatedMessage.getText();
     }
 }

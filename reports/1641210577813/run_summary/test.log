@@ -1,3 +1,0 @@
-[2022-01-03 08:50:14] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2022-01-03 08:50:14] [IMessager.java] [1] [INFO] RESULT #1: TEST [GSMArena - verifyConditionsAreRequired [L01]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641210577813/616e26ac-ac76-4436-a972-1947ec3063f6/test.log]
-[2022-01-03 08:50:14] [IMessager.java] [1] [INFO] RESULT #2: TEST [GSMArena - verifyConditionsAreRequired [L02]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641210577813/48c09e54-c6a6-4ee1-9b00-a7cceb308436/test.log]
