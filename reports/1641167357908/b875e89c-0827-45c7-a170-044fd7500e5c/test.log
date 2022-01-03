@@ -1,0 +1,2 @@
+[2022-01-02 08:50:12] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-02 08:50:12] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidEmailsNotAllowed [L02]] STARTED at [20:50:12 2022-01-02]
