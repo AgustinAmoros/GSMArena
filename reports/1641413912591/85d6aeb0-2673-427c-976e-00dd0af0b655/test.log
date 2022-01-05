@@ -1,0 +1,39 @@
+[2022-01-05 05:18:58] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-05 05:18:58] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidNicknameIsNotAllowed [L02]] STARTED at [17:18:58 2022-01-05]
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:18:58] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:00] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-05 05:19:10] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidNicknameIsNotAllowed [L02]] PASSED at [17:19:10 2022-01-05]

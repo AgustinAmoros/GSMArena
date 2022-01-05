@@ -24,11 +24,10 @@ import java.util.concurrent.TimeUnit;
 public class GSMArenaTests implements IAbstractTest, ISignUpService, ILogInService, ISearchService {
 
    public WebDriver driver;
+
    @BeforeTest
            public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
        driver = new ChromeDriver();
-       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @DataProvider(name = "dpValidCredentials")

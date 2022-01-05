@@ -1,3 +1,0 @@
-[2022-01-05 01:16:55] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
-[2022-01-05 01:16:55] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyQuickSearchWorkFlow [L02]] STARTED at [13:16:55 2022-01-05]
-[2022-01-05 01:17:14] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyQuickSearchWorkFlow [L02]] PASSED at [13:17:14 2022-01-05]
