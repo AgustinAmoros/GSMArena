@@ -15,11 +15,10 @@ public interface ISearchService {
     default HomePage quickSearch(WebDriver driver,String searchQuery){
         HomePage homePage = new HomePage(driver);
         homePage.clickSearchField();
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         homePage.setSearchField(searchQuery);
-        driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
-        Actions action = new Actions(driver);
-        action.sendKeys(Keys.ARROW_DOWN).build().perform();
-        action.sendKeys(Keys.ENTER).build().perform();
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+       homePage.clickFirstQuickSearchResult();
         return homePage;
     }
 

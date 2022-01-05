@@ -1,0 +1,4 @@
+[2022-01-05 01:21:41] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-05 01:21:41] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyFullSearchWorkFlow [L06]] STARTED at [13:21:41 2022-01-05]
+[2022-01-05 01:21:58] [ExtendedWebElement.java] [1] [WARN] Trying to do click by JavascriptExecutor because element 'firstSearchResult (By.xpath: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/ul/li[1]/a/strong/span)' is not visible...
+[2022-01-05 01:21:59] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyFullSearchWorkFlow [L06]] PASSED at [13:21:59 2022-01-05]

@@ -1,4 +1,0 @@
-[2022-01-03 12:12:48] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2022-01-03 12:12:48] [IMessager.java] [1] [INFO] RESULT #1: TEST [GSMArena - verifyFullSearchWorkFlow [L01]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641222678989/3556dc43-9f71-44cd-88a0-2b27c1fa4a4d/test.log]
-[2022-01-03 12:12:48] [IMessager.java] [1] [INFO] RESULT #2: TEST [GSMArena - verifyFullSearchWorkFlow [L02]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641222678989/61e88bc8-c265-4e4f-9a7c-cd596659efcb/test.log]
-[2022-01-03 12:12:48] [IMessager.java] [1] [INFO] RESULT #3: TEST [GSMArena - verifyFullSearchWorkFlow [L03]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641222678989/ef0c8f42-68cf-4555-b8ec-dbd57815640b/test.log]

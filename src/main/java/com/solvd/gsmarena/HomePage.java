@@ -60,6 +60,9 @@ public class HomePage extends AbstractPage {
     @FindBy(xpath="/html/body/div[1]/div[1]/div[2]/div/div[2]/div/ul/li[1]/a/strong/span")
     private ExtendedWebElement firstSearchResult;
 
+    @FindBy(xpath="/html/body/div[1]/div[1]/div[2]/div/div[2]/div/ul/li")
+    private ExtendedWebElement firstQuickSearchResult;
+
     public SignUpPage clickSignUpButton() {
         getSignUpButton.click();
         Actions action = new Actions(driver);
@@ -145,4 +148,9 @@ public class HomePage extends AbstractPage {
     public void clickFirstSearchResult(){
         firstSearchResult.click();
     }
+
+    public void clickFirstQuickSearchResult(){
+        firstQuickSearchResult.click();
+    }
+
 }

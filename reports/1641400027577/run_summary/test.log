@@ -1,0 +1,7 @@
+[2022-01-05 01:28:22] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-01-05 01:28:22] [IMessager.java] [1] [INFO] RESULT #1: TEST [GSMArena - verifyFullSearchWorkFlow [L01]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641400027577/8e183530-e9f8-4c2b-a6a6-ce68be6e901b/test.log]
+[2022-01-05 01:28:22] [IMessager.java] [1] [INFO] RESULT #2: TEST [GSMArena - verifyFullSearchWorkFlow [L02]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641400027577/98407b9a-2a69-452f-a9f8-28e0e2a420b2/test.log]
+[2022-01-05 01:28:22] [IMessager.java] [1] [INFO] RESULT #3: TEST [GSMArena - verifyFullSearchWorkFlow [L03]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641400027577/8d50a276-c609-4e32-96dd-ad566e3bd3b1/test.log]
+[2022-01-05 01:28:22] [IMessager.java] [1] [INFO] RESULT #4: TEST [GSMArena - verifyFullSearchWorkFlow [L04]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641400027577/1e66b9e5-ca91-4583-85cb-3400fa016a75/test.log]
+[2022-01-05 01:28:22] [IMessager.java] [1] [INFO] RESULT #5: TEST [GSMArena - verifyFullSearchWorkFlow [L05]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641400027577/ae909468-fba5-4198-b08f-08fc813b376c/test.log]
+[2022-01-05 01:28:22] [IMessager.java] [1] [INFO] RESULT #6: TEST [GSMArena - verifyFullSearchWorkFlow [L06]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641400027577/04201b77-8dbd-40ad-9242-5550fd055ced/test.log]

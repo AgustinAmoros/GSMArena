@@ -13,9 +13,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.util.concurrent.TimeUnit;
 
 public class GSMArenaTests implements IAbstractTest, ISignUpService, ILogInService, ISearchService {
 
@@ -24,7 +28,7 @@ public class GSMArenaTests implements IAbstractTest, ISignUpService, ILogInServi
            public void setUp(){
         System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
        driver = new ChromeDriver();
-       driver.get("http://www.gsmarena.com");
+       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @DataProvider(name = "dpValidCredentials")
