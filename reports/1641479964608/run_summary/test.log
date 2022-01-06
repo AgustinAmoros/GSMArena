@@ -1,0 +1,7 @@
+[2022-01-06 11:39:35] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-01-06 11:39:35] [IMessager.java] [1] [INFO] RESULT #1: TEST [GSMArena - verifyFullSearchWorkFlow [L01]] FAIL [log=file://C:\Users\PLAO\Desktop\Solvd\GSMArena\.\reports\1641479964608/6b586502-58bc-4161-987c-eeea90775158/test.log]
+[2022-01-06 11:39:35] [IMessager.java] [1] [INFO] RESULT #2: TEST [GSMArena - verifyFullSearchWorkFlow [L02]] FAIL [log=file://C:\Users\PLAO\Desktop\Solvd\GSMArena\.\reports\1641479964608/637921c3-8c01-4d98-9341-a5099d8b248a/test.log]
+[2022-01-06 11:39:35] [IMessager.java] [1] [INFO] RESULT #3: TEST [GSMArena - verifyFullSearchWorkFlow [L03]] FAIL [log=file://C:\Users\PLAO\Desktop\Solvd\GSMArena\.\reports\1641479964608/4b92132b-96f4-4de8-996d-ff0b9e32a40b/test.log]
+[2022-01-06 11:39:35] [IMessager.java] [1] [INFO] RESULT #4: TEST [GSMArena - verifyFullSearchWorkFlow [L04]] FAIL [log=file://C:\Users\PLAO\Desktop\Solvd\GSMArena\.\reports\1641479964608/1070bd29-e021-47e1-9dec-d5003c81ee18/test.log]
+[2022-01-06 11:39:35] [IMessager.java] [1] [INFO] RESULT #5: TEST [GSMArena - verifyFullSearchWorkFlow [L05]] FAIL [log=file://C:\Users\PLAO\Desktop\Solvd\GSMArena\.\reports\1641479964608/1991f9f5-741b-4d57-8b10-767e01e4fe71/test.log]
+[2022-01-06 11:39:35] [IMessager.java] [1] [INFO] RESULT #6: TEST [GSMArena - verifyFullSearchWorkFlow [L06]] FAIL [log=file://C:\Users\PLAO\Desktop\Solvd\GSMArena\.\reports\1641479964608/501eda94-682e-4328-8153-277857bfa40c/test.log]

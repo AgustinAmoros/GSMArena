@@ -1,0 +1,49 @@
+[2022-01-06 11:22:19] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-06 11:22:19] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidNicknameIsNotAllowed [L02]] STARTED at [11:22:19 2022-01-06]
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:20] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:21] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:21] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:21] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:36] [DriverListener.java] [1] [INFO] PASS: element 'getSignUpButton' is clicked.
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:37] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [CryptoTool.java] [1] [ERROR] Can't load secret key!
+[2022-01-06 11:22:38] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'nicknameField'.
+[2022-01-06 11:22:39] [DriverListener.java] [1] [INFO] PASS: keys '' are sent to element 'nicknameField'.
+[2022-01-06 11:22:40] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'emailField'.
+[2022-01-06 11:22:40] [DriverListener.java] [1] [INFO] PASS: keys 'ABCDEFG@gmail.com' are sent to element 'emailField'.
+[2022-01-06 11:22:41] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'passwordField'.
+[2022-01-06 11:22:42] [DriverListener.java] [1] [INFO] PASS: keys 'bicicletagod123' are sent to element 'passwordField'.
+[2022-01-06 11:22:42] [DriverListener.java] [1] [INFO] PASS: element 'iAgreeConditionButton' is clicked.
+[2022-01-06 11:22:43] [DriverListener.java] [1] [INFO] PASS: element 'iAmSixteenConditionButton' is clicked.
+[2022-01-06 11:22:44] [DriverListener.java] [1] [INFO] PASS: element 'submitButton' is clicked.
+[2022-01-06 11:22:54] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyInvalidNicknameIsNotAllowed [L02]] PASSED at [11:22:54 2022-01-06]

@@ -1,3 +1,0 @@
-[2022-01-05 01:29:38] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2022-01-05 01:29:38] [IMessager.java] [1] [INFO] RESULT #1: TEST [GSMArena - verifyInvalidNicknameIsNotAllowed [L01]] FAIL [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641400124776/ac945da9-9107-44c9-ad68-512dec99e401/test.log]
-[2022-01-05 01:29:38] [IMessager.java] [1] [INFO] RESULT #2: TEST [GSMArena - verifyInvalidNicknameIsNotAllowed [L02]] PASS [log=file:///Users/solvd/Desktop/Proyectos/GSMArena/./reports/1641400124776/49896bb5-4dda-4f35-8cf9-673ec0f11ada/test.log]

@@ -23,12 +23,12 @@ import java.util.concurrent.TimeUnit;
 
 public class GSMArenaTests implements IAbstractTest, ISignUpService, ILogInService, ISearchService {
 
-   public WebDriver driver;
-
-   @BeforeTest
-           public void setUp(){
-       driver = new ChromeDriver();
-    }
+//   public WebDriver driver;
+//
+//   @BeforeTest
+//           public void setUp(){
+//       driver = new ChromeDriver();
+//    }
 
     @DataProvider(name = "dpValidCredentials")
     public Object[][] dp1(){
@@ -60,27 +60,27 @@ public class GSMArenaTests implements IAbstractTest, ISignUpService, ILogInServi
 
     @Test
     public void verifyHomePageWorkflow(){
-        SignUpPage signUpPage = goToSignUp(driver);
+        SignUpPage signUpPage = goToSignUp(getDriver());
         assertEquals(signUpPage.getSignUpMessage(), "Sign Up", "FATAL!, Not same");
     }
 
     @Test(dataProvider = "dp1")
     public void verifyEmptyEmailsNotAllowed(String nickname,String password){
-       SignUpPage signUpPage = signUpWithInvalidEmail(driver,nickname,password,"");
+       SignUpPage signUpPage = signUpWithInvalidEmail(getDriver(),nickname,password,"");
        assertEquals(signUpPage.isSubmitButtonClickable(), false, "FATAL!, Not same");
 
     }
 
     @Test(dataProvider = "dp1")
     public void verifyInvalidEmailsNotAllowed(String nickname,String password){
-        SignUpPage signUpPage = signUpWithInvalidEmail(driver,nickname,password,"ABCDEFG.com");
+        SignUpPage signUpPage = signUpWithInvalidEmail(getDriver(),nickname,password,"ABCDEFG.com");
         assertEquals(signUpPage.isSubmitButtonClickable(), false, "FATAL!, Not same");
 
     }
 
     @Test(dataProvider = "dpInvalidNicknames")
     public void verifyInvalidNicknameIsNotAllowed(String nickname, String password){
-        SignUpPage signUpPage = signUpWithInvalidCredentials(driver,nickname,password);
+        SignUpPage signUpPage = signUpWithInvalidCredentials(getDriver(),nickname,password);
         if(signUpPage.isSubmitButtonClickable()==true) {
             signUpPage.clickSubmitButton();
             assertEquals(signUpPage.getOperationFailedMessage(), "The operation failed.", "FATAL!, Not same");
@@ -93,7 +93,7 @@ public class GSMArenaTests implements IAbstractTest, ISignUpService, ILogInServi
 
     @Test(dataProvider="dpInvalidPasswords")
     public void verifyInvalidPasswordIsNotAllowed(String nickname, String password){
-        SignUpPage signUpPage = signUpWithInvalidCredentials(driver,nickname,password);
+        SignUpPage signUpPage = signUpWithInvalidCredentials(getDriver(),nickname,password);
         if(signUpPage.isSubmitButtonClickable()==true) {
             signUpPage.clickSubmitButton();
             assertEquals(signUpPage.getOperationFailedMessage(), "The operation failed.", "FATAL!, Not same");
@@ -108,14 +108,14 @@ public class GSMArenaTests implements IAbstractTest, ISignUpService, ILogInServi
 
     @Test(dataProvider="dpValidCredentials")
     public void verifyConditionsAreRequired(String nickname,String password){
-       SignUpPage signUpPage = signUpWithoutConditions(driver,nickname,password);
+       SignUpPage signUpPage = signUpWithoutConditions(getDriver(),nickname,password);
        assertEquals(signUpPage.isSubmitButtonClickable(), false, "FATAL!, Not same");
 
     }
 
     @Test
     public void verifySignUpWithUsedCredentials(){
-        SignUpPage signUpPage = signUpWithValidCredentials(driver);
+        SignUpPage signUpPage = signUpWithValidCredentials(getDriver());
         assertEquals(signUpPage.getAccountCreatedMessage(), "The operation failed.", "FATAL!, Not same");
 
     }
@@ -123,52 +123,52 @@ public class GSMArenaTests implements IAbstractTest, ISignUpService, ILogInServi
 
     @Test(dataProvider="dpValidCredentials")
     public void verifyLogInWorkFlow(String nickname, String password){
-       HomePage homePage = goToLogIn(driver,nickname,password);
+       HomePage homePage = goToLogIn(getDriver(),nickname,password);
         assertEquals(homePage.getLogInMessage(), "Login", "FATAL!, Not same");
 
     }
 
     @Test(dataProvider = "dpValidCredentials")
     public void verifyLogInWithInvalidCombination(String nickname, String password){
-       HomePage homePage = logInWithInvalidCombination(driver, nickname, password);
+       HomePage homePage = logInWithInvalidCombination(getDriver(), nickname, password);
         assertEquals(homePage.getLogInFailedMessage(), "Login failed.", "FATAL!, Not same");
     }
 
     @Test(dataProvider = "dpValidCredentials")
     public void verifyLogInWithEmptyEmail(String nickname, String password){
-        HomePage homePage = logInWithEmptyEmail(driver, nickname, password);
+        HomePage homePage = logInWithEmptyEmail(getDriver(), nickname, password);
         assertEquals(homePage.isLogInSuccesfullMessageVisible(), false, "FATAL!, Not same");
    }
 
     @Test(dataProvider = "dpValidCredentials")
     public void verifyLogInWithEmptyPassword(String nickname, String password){
-        HomePage homePage = logInWithEmptyPassword(driver, nickname, password);
+        HomePage homePage = logInWithEmptyPassword(getDriver(), nickname, password);
         assertEquals(homePage.isLogInSuccesfullMessageVisible(), false, "FATAL!, Not same");
     }
 
     @Test
     public void verifyLogInWithValidCredentials(){
-        HomePage homePage = logInWithRealCredentials(driver);
+        HomePage homePage = logInWithRealCredentials(getDriver());
         assertEquals(homePage.getLogInSuccessfullMessage(), "Login successful.", "FATAL!, Not same");
    }
 
    @Test(dataProvider = "dpSearch1")
     public void verifyQuickSearchWorkFlow(String searchQuery){
-       HomePage homePage = quickSearch(driver,searchQuery);
+       HomePage homePage = quickSearch(getDriver(),searchQuery);
        assertEquals(homePage.getProductName().contains(searchQuery),true , "FATAL!, Not same");
 
    }
 
     @Test(dataProvider = "dpSearch1")
     public void verifyFullSearchWorkFlow(String searchQuery){
-        HomePage homePage = fullSearch(driver,searchQuery);
+        HomePage homePage = fullSearch(getDriver(),searchQuery);
         assertEquals(homePage.getProductName().contains(searchQuery),true , "FATAL!, Not same");
 
     }
 
     @Test(dataProvider = "dpSearchInvalid")
     public void verifyNoResultsSearch(String searchQuery){
-       HomePage homePage = displayFullSearchResults(driver,searchQuery);
+       HomePage homePage = displayFullSearchResults(getDriver(),searchQuery);
        assertEquals(homePage.getNoResultsMessage(), "We're sorry, we found no results", "FATAL!, Not same");
 
     }

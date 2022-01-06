@@ -1,0 +1,8 @@
+[2022-01-06 11:27:12] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-06 11:27:12] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyFullSearchWorkFlow [L02]] STARTED at [11:27:12 2022-01-06]
+[2022-01-06 11:27:25] [DriverListener.java] [1] [INFO] PASS: element 'searchField' is clicked.
+[2022-01-06 11:27:26] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchField'.
+[2022-01-06 11:27:27] [DriverListener.java] [1] [INFO] PASS: keys 'Apple' are sent to element 'searchField'.
+[2022-01-06 11:27:29] [DriverListener.java] [1] [INFO] PASS: element 'goSearchButton' is clicked.
+[2022-01-06 11:27:37] [DriverListener.java] [1] [INFO] PASS: element 'firstSearchResult' is clicked.
+[2022-01-06 11:27:39] [IMessager.java] [1] [INFO] TEST [GSMArena - verifyFullSearchWorkFlow [L02]] PASSED at [11:27:39 2022-01-06]

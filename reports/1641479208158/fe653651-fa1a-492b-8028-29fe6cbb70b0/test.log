@@ -1,0 +1,10 @@
+[2022-01-06 11:28:56] [IMessager.java] [58] [INFO] INFO: opening url 'https://www.gsmarena.com'
+[2022-01-06 11:29:03] [DriverListener.java] [58] [INFO] URL 'https://www.gsmarena.com' opened
+[2022-01-06 11:29:03] [Screenshot.java] [58] [ERROR] ExecutionException error on capture screenshot: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PELADO-PC', ip: '25.0.57.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\PLAO\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba193c655d6cfd98fa3d2853878c415f
